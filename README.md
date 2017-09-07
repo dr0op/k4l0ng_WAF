@@ -6,11 +6,12 @@
 
 ## 添加了日志记录的功能，分为简洁版和详细版
 
-其中all_requests.txt记录的类似于apache的日志，但是它能显示出每次访问POST过来的数据
-其中all_requests_details.txt记录的是详细的请求头信息，类似burp中截取的请求。
-其中attack_detect_log.txt记录的是waf检测到的攻击请求，waf会将详细的攻击向量记录在这个文件中，并在文件开头表明攻击类型（sqli，EXEC，LFI／RFI等）。
+* 其中all_requests.txt记录的类似于apache的日志，但是它能显示出每次访问POST过来的数据
 
-通过以上日志可以分析其它攻击人员的载荷，一般情况下，这个攻击载荷，对其它选手也是有用的了，很猥琐。
+* 其中all_requests_details.txt记录的是详细的请求头信息，类似burp中截取的请求。
+* 其中attack_detect_log.txt记录的是waf检测到的攻击请求，waf会将详细的攻击向量记录在这个文件中，并在文件开头表明攻击类型（sqli，EXEC，LFI／RFI等）。
+
+* 通过以上日志可以分析其它攻击人员的载荷，一般情况下，这个攻击载荷，对其它选手也是有用的了，很猥琐。
 
 ## 使用
 
